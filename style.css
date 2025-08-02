@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+header{
+    background: #2c3e50;
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    height: 50px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 500;
+}
+nav a.active{
+    border-bottom: 2px solid #3498db;
+}
+/*===Hero Section===*/
+.hero{
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    padding: 5rem 2rem;
+    text-align: center;
+    color: white;
+}
+.hero h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.hero p{
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+.btn{
+    display: inline-block;
+    background: #3498db;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1rem;
+}
+.btn-outline{
+    background: transparent;
+    border: 2px solid white;
+}
+/*form page*/
+.form-page{
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+}
+.form-group{
+    margin-bottom: 1.5rem;
+}
+.form-group label{
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+.form-group input,.form-group select{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+/*===Announcements===*/
+.announcements-preview{
+    max-width: 800px;
+    margin: 3rem auto;
+    padding: 0 2rem;
+}
+.announcement-card{
+    background: #f8f9fa;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    border-left: 5px solid #3498db;
+}
+.announcement-card h3{
+    margin-top: 0;
+    color: #2c3e50;
+}
+.announcement-card p{
+    margin: 0.5rem 0;
+    color: #555;
+}
+.view-all{
+    display: inline-block;
+    color: #3498db;
+    text-decoration: none;
+    margin-top: 1rem;
+}
+/*===results page===*/
+.results-portal{
+    max-width: 800px;
+    margin: 3rem auto;
+    padding: 0 2rem;
+}
+.results-portal h2{
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+.login-form{
+    background: #f8f9fa;
+    padding: 2rem;
+    border-radius: 8px;
+    margin: 2rem 0;
+}
+.results-table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+.results-table th, .results-table td{
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+.results-table th{
+    background: #2c3e50;
+    color: white;
+}
+/*===Footer===*/
+footer{
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 2rem;
+}
